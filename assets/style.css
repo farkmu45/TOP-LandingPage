@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Header nav style */
+
+.header {
+  background-color: #1f2937;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-weight: 600;
+  color: white;
+}
+
+.header-links ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.header-links ul a:link,
+.header-links ul a:active,
+.header-links ul a:visited {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 20px 5px;
+}
+
+/* Hero style */
+
+.hero {
+  padding: 100px 0;
+  background-color: #1f2937;
+}
+
+.hero .container {
+  gap: 60px;
+  display: flex;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+}
+
+.hero-left p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+}
+
+.hero a:link,
+.hero a:active,
+.hero a:visited {
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+
+.hero-right {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-right img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Services */
+
+.services {
+  padding: 70px 100px;
+}
+
+.services h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.service-cards {
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 4px #3882f6 solid;
+}
+
+.card-subtext {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Quote */
+
+.quote {
+  padding: 120px 0;
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  margin-top: 40px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* CTA */
+
+.cta {
+  padding: 120px 0;
+}
+
+.cta-card {
+  margin: 20px;
+  padding: 40px 80px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta-text {
+  color: white;
+}
+
+.cta-text p:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.cta-card a:link,
+.cta-card a:active,
+.cta-card a:visited {
+  color: white;
+  text-decoration: none;
+  border: 2px white solid;
+  border-radius: 7px;
+  font-weight: 600;
+  padding: 5px 30px;
+}
